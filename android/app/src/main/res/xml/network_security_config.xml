@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Política de rede exclusiva dos testes locais. -->
+<network-security-config>
+
+    <!-- Permite HTTP não criptografado no modo debug. -->
+    <base-config cleartextTrafficPermitted="true" />
+
+</network-security-config>
